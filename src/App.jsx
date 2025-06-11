@@ -10,7 +10,7 @@ function App() {
     setIconSrc(imageUrl)
   
     const formData = new FormData()
-    formData.append('file', file)
+    formData.append('img', file)
 
     try {
       const response = await fetch('http://localhost:8000/predict', {
@@ -19,7 +19,7 @@ function App() {
       })
 
       const result = await response.json()
-      console.log('Response from FastAPI:', result)
+      console.log('Response from FastAPI:', result.tags)
     } catch (error) {
       console.error('Upload failed:', error)
     }
