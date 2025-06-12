@@ -15,7 +15,7 @@ function App() {
     formData.append('img', file)
 
     try {
-      const response = await fetch(`${import.meta.env.PREDICT_API_URL}/predict`, {
+      const response = await fetch(`${import.meta.env.VITE_PREDICT_API_URL}/predict`, {
         method: 'POST',
         body: formData
       })
