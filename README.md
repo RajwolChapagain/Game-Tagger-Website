@@ -36,6 +36,10 @@ Enter the development environment:
 ```
 NIX_CONFIG="experimental-features = nix-command flakes" nix develop
 ```
+Install npm dependencies:
+```
+npm ci
+```
 Host a development build:
 ```
 npm run dev
