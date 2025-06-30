@@ -8,7 +8,8 @@ const DescriptionBar = ({ text }) => {
         color: '#bbb', 
         backgroundColor: 'transparent',
         fontSize: '0.9rem',
-        whiteSpace: 'pre-line'
+        whiteSpace: 'pre-line',
+        textAlign: 'center',
       }}
     >
       {text}
