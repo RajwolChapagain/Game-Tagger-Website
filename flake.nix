@@ -16,7 +16,9 @@
 			];
 
 			shellHook = ''
-				exec zsh
+				if which zsh &> /dev/null; then
+					exec zsh
+				fi
 			'';
 		};
 	};
