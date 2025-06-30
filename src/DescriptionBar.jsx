@@ -10,6 +10,9 @@ const DescriptionBar = ({ text }) => {
         fontSize: '0.9rem',
         whiteSpace: 'pre-line',
         textAlign: 'center',
+        maxWidth: '90vw',
+        wordWrap: 'break-word',
+        boxSizing: 'border-box',
       }}
     >
       {text}

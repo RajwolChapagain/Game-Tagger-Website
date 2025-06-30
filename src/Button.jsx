@@ -24,7 +24,7 @@ const Button = ({ icon, className, style, onFileSelect }) => {
         <img
           src={icon}
           alt="Upload"
-          style={{ width: 'auto', height: '400px', cursor: 'pointer', borderRadius: '20px' }}
+          style={{ maxWidth: '90vw', height: 'auto', maxHeight: '400px', cursor: 'pointer', borderRadius: '20px' }}
         />
       </button>
 
