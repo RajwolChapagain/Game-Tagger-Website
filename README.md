@@ -4,9 +4,6 @@
 
 Game Tagger is a CNN-based machine learning model that tags games based on their in-game screenshots. It is a multi-label classifier built from the ground up and trained on data scraped from the Steam games store. This repository contains the frontend code for a sample web interface built using React that allows users to upload screenshots and receive predictions from the model, which is hosted on AWS. The backend code for model creation can be found [here](https://github.com/RajwolChapagain/Game-Tagger).
 
-# 🔗 Deployed Website
-To see this project in action, visit the linked [website](https://rajwolchapagain.github.io/Game-Tagger-Website/).
-
 # 🛠️ Development
 To get started with development, clone the repository:
 ```
